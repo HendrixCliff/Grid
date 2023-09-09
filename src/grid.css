@@ -1,0 +1,22 @@
+.cell {
+  padding: 3em;
+  width: 100%;
+  align-items: center;
+  border-radius: 1em;
+  border: 2px groove #e9f0d8;
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px groove #efe9f4;
+  padding: 2em;
+  background: #ffffff;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em
+}
+
